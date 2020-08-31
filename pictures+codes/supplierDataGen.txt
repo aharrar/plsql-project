@@ -1,0 +1,151 @@
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (213485, 'Carlerbium', 97496278, 'carl.diesel@marathonheater.ca', 'Marathon Heater');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (001216, 'Judethallium', 66696870, 'jude.gaynor@pulaskifinancial.com', 'Pulaski Financial');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (346311, 'Ellepraseodymium', 79402002, 'elle@timberlanewoodcrafters.com', 'Timberlane Woodcrafters');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (634497, 'Simonberkelium', 29505771, 'simon.haysbert@pioneermortgage.com', 'Pioneer Mortgage');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (324553, 'Vinneon', 29239261, 'v.borgnine@trx.com', 'TRX');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (958505, 'Vendettamagnesium', 68832221, 'vendetta@supplycorecom.com', 'SupplyCore.com');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (102642, 'Collectivepotassium', 29530371, 'collective@csi.com', 'Custom Solutions International');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (932684, 'Jonathaplutonium', 33673433, 'jonatha.blossoms@nbs.pl', 'National Bankcard Systems');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (493285, 'Crystaliodine', 09919707, 'carden@sprint.com', 'Sprint Corp.');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (692354, 'Juddradium', 65780064, 'jhead@qestrel.jp', 'Qestrel Cos.');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (081183, 'Merlechlorine', 19739472, 'merle.dzundza@ceb.mx', 'Corporate Executive Board');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (345814, 'Kathygold', 04251453, 'ktomei@marathonheater.com', 'Marathon Heater');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (700561, 'Rickyyttrium', 08483314, 'ricky.r@directdata.com', 'Direct Data');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (458140, 'Emmylouscandium', 18086131, 'emmylou@paintedword.jp', 'Painted Word');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (457877, 'Curtispolonium', 18975441, 'curtis.matarazzo@atlanticcredit.dk', 'Atlantic Credit & Finance');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (786079, 'Halstrontium', 50792898, 'hal@data.com', 'Data Company');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (659389, 'Haroldastatine', 89988276, 'harold.foster@granitesystems.br', 'Granite Systems');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (029107, 'Mattkrypton', 43849569, 'matt.myles@seiaarons.ec', 'SEI/Aaron''s');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (563325, 'Bobbyamericium', 61047936, 'b.weaving@oriservices.ch', 'ORI Services');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (115205, 'Bernardgallium', 74248518, 'bernard.dalley@meghasystems.uk', 'Megha Systems');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (994576, 'Heathervanadium', 77925300, 'hreed@vitacostcom.com', 'Vitacost.com');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (326251, 'Debbiezirconium', 11371853, 'djeter@universalsolutions.com', 'Universal Solutions');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (742803, 'Wesneon', 47750388, 'wes.chestnut@investmentscorecard.com', 'Investment Scorecard');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (124440, 'Donaltin', 63819448, 'donal.orbit@loreal.com', 'L’Oreal');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (752023, 'Jeannenobelium', 08832466, 'jeanne.lonsdale@servicesource.com', 'Service Source');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (505877, 'Famkelanthanum', 15102104, 'famke.arkenstone@directdata.at', 'Direct Data');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (237332, 'Caryniobium', 78267611, 'cary.dillane@httprint.com', 'httprint');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (417845, 'Caseycalcium', 12467454, 'casey.silverman@cardinalcartridge.de', 'Cardinal Cartridge');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (297192, 'Victoriaerbium', 28751331, 'victoria.gershon@innovateecommerce.com', 'Innovate E-Commerce');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (667867, 'Jeremygadolinium', 49694907, 'jeremy@toyotamotor.dk', 'Toyota Motor Corp.');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (155500, 'Joshuanobelium', 83410556, 'jcarradine@bioreliance.nl', 'BioReliance');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (484867, 'Lancebarium', 11371652, 'lance.p@voicelog.il', 'VoiceLog');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (863173, 'Richardhafnium', 79977085, 'richard.kinnear@lloydgroup.com', 'Lloyd Group');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (890452, 'Elizacarbon', 72241910, 'eliza.weston@owm.br', 'Oakleaf Waste Management');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (096748, 'Melboron', 15759095, 'mel.c@securitycheck.com', 'Security Check');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (206781, 'Bridgetindium', 63093655, 'bridgets@refinery.uk', 'Refinery');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (389195, 'Lloydmendlevium', 32995974, 'lloyd.burmester@execuscribe.uk', 'Execuscribe');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (352520, 'Jenniferiron', 32194811, 'jenniferc@unitedasset.uk', 'United Asset Coverage');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (332513, 'Nastassjaeinsteinium', 42311867, 'n.duschel@circuitcitystores.uk', 'Circuit City Stores');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (212168, 'Colmsilicon', 14991315, 'colm@serentec.com', 'Serentec');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (579676, 'Nikkavanadium', 49192793, 'n.williams@nike.ca', 'Nike');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (869557, 'Petevanadium', 13892727, 'pete.steagall@hfn.com', 'Homebuilders Financial Network');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (037246, 'Nevegermanium', 88431030, 'neve.mirren@evergreenresources.com', 'Evergreen Resources');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (854354, 'Nataliescandium', 23874144, 'natalie.sandoval@restaurantpartners.com', 'Restaurant Partners');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (874671, 'Swoosieantimony', 26709443, 'swoosie.stevenson@sds.com', 'Strategic Data Systems');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (188010, 'Buddynitrogen', 22709182, 'buddy.pressly@codykramerimports.jp', 'Cody-Kramer Imports');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (454126, 'Giancarloantimony', 64956988, 'giancarlo.gibson@outsourcegroup.jp', 'Outsource Group');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (511543, 'Petulazirconium', 75484204, 'p.maclachlan@spd.fr', 'Scott Pipitone Design');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (024318, 'Bryanmendlevium', 85927139, 'bryanj@tropicaloasis.ca', 'Tropical Oasis');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (534243, 'Vendettacarbon', 23051927, 'vendetta.oakenfold@commworks.com', 'Comm-Works');
+
+commit;

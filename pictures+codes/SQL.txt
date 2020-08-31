@@ -1,0 +1,170 @@
+
+CREATE TABLE supplier
+(
+  supID INT NOT NULL,
+  supName VARCHAR(50) NOT NULL,
+  supPhone INT NOT NULL,
+  supEmail VARCHAR(50) NOT NULL,
+  supCompany VARCHAR(30) NOT NULL,
+  PRIMARY KEY (supID)
+);
+
+CREATE TABLE products
+(
+  prodID INT NOT NULL,
+  numAvailable INT NOT NULL,
+  price INT NOT NULL,
+  PRIMARY KEY (prodID)
+);
+
+CREATE TABLE diary
+(
+  diarydate DATE NOT NULL,
+  campaign VARCHAR(50) NOT NULL,
+  PRIMARY KEY (diarydate)
+);
+
+CREATE TABLE customer
+(
+  ID INT NOT NULL,
+  birthday DATE NOT NULL,
+  address VARCHAR(50) NOT NULL,
+  phone INT NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  name VARCHAR(50) NOT NULL,
+  PRIMARY KEY (ID)
+);
+
+CREATE TABLE sales
+(
+  saleID INT NOT NULL,
+  saleDate DATE NOT NULL,
+  customerID INT NOT NULL,
+  EmployeeID INT NOT NULL,
+  PRIMARY KEY (saleID)
+);
+
+CREATE TABLE employee
+(
+  empID INT NOT NULL,
+  empName VARCHAR(50) NOT NULL,
+  salary INT NOT NULL,
+  empRating INT NOT NULL,
+  joinDate DATE NOT NULL,
+  PRIMARY KEY (empID)
+);
+
+CREATE TABLE supply
+(
+  supplyAmount INT NOT NULL,
+  suplyDate DATE NOT NULL,
+  orderPrice INT NOT NULL,
+  supID INT NOT NULL,
+  prodID INT NOT NULL,
+  PRIMARY KEY (supID, prodID),
+  FOREIGN KEY (supID) REFERENCES supplier(supID),
+  FOREIGN KEY (prodID) REFERENCES products(prodID)
+);
+
+CREATE TABLE purchase
+(
+  purchaseAmount INT NOT NULL,
+  saleID INT NOT NULL,
+  prodID INT NOT NULL,
+  PRIMARY KEY (saleID, prodID),
+  FOREIGN KEY (saleID) REFERENCES sales(saleID),
+  FOREIGN KEY (prodID) REFERENCES products(prodID)
+);
+
+CREATE TABLE diaryUpdate
+(
+  empID INT NOT NULL,
+  Updatedate DATE NOT NULL,
+  PRIMARY KEY (empID, Updatedate),
+  FOREIGN KEY (empID) REFERENCES employee(empID),
+  FOREIGN KEY (Updatedate) REFERENCES diary(diarydate)
+);CREATE TABLE supplier
+(
+  supID INT NOT NULL,
+  supName VARCHAR(50) NOT NULL,
+  supPhone INT NOT NULL,
+  supEmail VARCHAR(50) NOT NULL,
+  supCompany VARCHAR(30) NOT NULL,
+  PRIMARY KEY (supID)
+);
+
+CREATE TABLE products
+(
+  prodID INT NOT NULL,
+  numAvailable INT NOT NULL,
+  price INT NOT NULL,
+  PRIMARY KEY (prodID)
+);
+
+CREATE TABLE diary
+(
+  diarydate DATE NOT NULL,
+  campaign VARCHAR(50) NOT NULL,
+  PRIMARY KEY (diarydate)
+);
+
+CREATE TABLE customer
+(
+  ID INT NOT NULL,
+  birthday DATE NOT NULL,
+  address VARCHAR(50) NOT NULL,
+  phone INT NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  name VARCHAR(50) NOT NULL,
+  PRIMARY KEY (ID)
+);
+
+CREATE TABLE sales
+(
+  saleID INT NOT NULL,
+  saleDate DATE NOT NULL,
+  customerID INT NOT NULL,
+  EmployeeID INT NOT NULL,
+  PRIMARY KEY (saleID)
+);
+
+CREATE TABLE employee
+(
+  empID INT NOT NULL,
+  empName VARCHAR(50) NOT NULL,
+  salary INT NOT NULL,
+  empRating INT NOT NULL,
+  joinDate DATE NOT NULL,
+  PRIMARY KEY (empID)
+);
+
+CREATE TABLE supply
+(
+  supplyAmount INT NOT NULL,
+  suplyDate DATE NOT NULL,
+  orderPrice INT NOT NULL,
+  supID INT NOT NULL,
+  prodID INT NOT NULL,
+  PRIMARY KEY (supID, prodID),
+  FOREIGN KEY (supID) REFERENCES supplier(supID),
+  FOREIGN KEY (prodID) REFERENCES products(prodID)
+);
+
+CREATE TABLE purchase
+(
+  purchaseAmount INT NOT NULL,
+  saleID INT NOT NULL,
+  prodID INT NOT NULL,
+  PRIMARY KEY (saleID, prodID),
+  FOREIGN KEY (saleID) REFERENCES sales(saleID),
+  FOREIGN KEY (prodID) REFERENCES products(prodID)
+);
+
+CREATE TABLE diaryUpdate
+(
+  empID INT NOT NULL,
+  Updatedate DATE NOT NULL,
+  PRIMARY KEY (empID, Updatedate),
+  FOREIGN KEY (empID) REFERENCES employee(empID),
+  FOREIGN KEY (Updatedate) REFERENCES diary(diarydate)
+);

@@ -1,0 +1,29 @@
+CREATE TABLE Esales
+(
+  EsaleID INT NOT NULL,
+  EsaleDate DATE NOT NULL,
+  customerAcc INT NOT NULL,
+  PRIMARY KEY (EsaleID)
+);
+
+CREATE TABLE Ecustomer
+(
+  CustomerAcc INT NOT NULL,
+  email VARCHAR(50) NULL,
+  bankAcc INT NOT NULL,
+  name VARCHAR(50) NULL,
+  address VARCHAR(50) NULL,
+  PRIMARY KEY (CustomerAcc)
+);
+
+
+
+CREATE TABLE Echase
+(
+  amountOf INT NOT NULL,
+  EsaleID INT NOT NULL,
+  prodID INT NOT NULL,
+  PRIMARY KEY (EsaleID, prodID),
+  FOREIGN KEY (EsaleID) REFERENCES Esales(EsaleID),
+  FOREIGN KEY (prodID) REFERENCES products(prodID)
+);

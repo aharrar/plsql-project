@@ -1,0 +1,3 @@
+prodid, numavailable, price
+666666, 56, 215 
+777777, 45, 156
