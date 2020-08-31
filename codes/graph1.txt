@@ -1,0 +1,5 @@
+SELECT sum(price), EXTRACT(MONTH FROM SALEDATE) AS "Month"
+from purchase natural join products natural join sales
+WHERE EXTRACT(YEAR FROM SALEDATE) = &year
+GROUP BY EXTRACT(MONTH FROM saledate)
+ORDER BY "Month"

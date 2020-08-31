@@ -1,0 +1,4 @@
+create view product_sold_year AS
+SELECT *
+From purchase natural join sales
+WHERE EXTRACT(year FROM saleDate) = &year1 AND prodID = &prodId

@@ -1,0 +1,16 @@
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (213485, 'Carlerbium', 97496278, 'carl.diesel@marathonheater.ca', 'Marathon Heater');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (001216, 'Judethallium', 66696870, 'jude.gaynor@pulaskifinancial.com', 'Pulaski Financial');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (346311, 'Ellepraseodymium', 79402002, 'elle@timberlanewoodcrafters.com', 'Timberlane Woodcrafters');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (634497, 'Simonberkelium', 29505771, 'simon.haysbert@pioneermortgage.com', 'Pioneer Mortgage');
+
+insert into AHARRAR.SUPPLIER (SUPID, SUPNAME, SUPPHONE, SUPEMAIL, SUPCOMPANY)
+values (324553, 'Vinneon', 29239261, 'v.borgnine@trx.com', 'TRX'); --…………….
+
+commit;

@@ -1,0 +1,4 @@
+Create view neighbors as
+select my.place, my.name1, my.address1
+from (select e.name name1,e.address address1,substr(e.address, instr(e.address,' ')+1, LENgth(e.address))as place from ecustomer e) my
+where my.place = &place;

@@ -1,0 +1,4 @@
+The index:
+CREATE INDEX supply_index
+ON supply (supplyamount, suplydate, orderprice, supid, prodid)
+COMPUTE STATISTICS;

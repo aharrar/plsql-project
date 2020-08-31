@@ -1,0 +1,15 @@
+select distinct (select sum(purchaseamount*price)
+               from purchase natural join sales natural join products 
+               where saledate < to_date('01-01-2020', 'dd/mm/yyyy') and saledate > to_date('01-01-2019', 'dd/mm/yyyy')
+               )
+               +
+                (select sum(amountof*price)
+               from echase natural join esales natural join products
+               where esaledate < to_date('01-01-2020', 'dd/mm/yyyy') and esaledate > to_date('01-01-2019', 'dd/mm/yyyy')
+               ) 
+                - 
+                (select sum(orderprice)
+               from supplier natural join supply
+               where suplydate < to_date('01-01-2020', 'dd/mm/yyyy') and suplydate > to_date('01-01-2019', 'dd/mm/yyyy')
+               )as benefits
+from sales

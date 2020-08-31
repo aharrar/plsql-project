@@ -1,0 +1,38 @@
+create or replace procedure Lottery 
+is 
+ idSales number;
+   priceSale number;
+     i number; 
+      rand number;
+       cursor salesIterator
+         is select * 
+             from sales natural join customer  
+                where saledate >= to_date('01/01/2000', 'DD/MM/YYYY')   
+                      and saledate < to_date('01/01/2020', 'DD/MM/YYYY') 
+                          order by saleid; 
+begin  
+   i := 0; 
+   for sales_rec in salesIterator  
+       loop   
+        idSales := sales_rec.saleid;   
+        select (select sum(price)     
+                from purchase natural join products     
+                where saleid = idSales     
+                )     
+        into priceSale    
+        from dual; 
+ 
+        if priceSale > 150 then     
+               i := i + 1;    
+               dbms_output.put_line( i || ') ' || idSales || ' of customr: ' ||           
+                     sales_rec.name || ' ' ||    
+                     sales_rec.phone || ' ' ||  
+                     sales_rec.email );      
+        end if; 
+    end loop; 
+  select round(dbms_random.value(1,i)) rnum  
+     into rand
+     from dual; 
+  dbms_output.put_line( 'The winner is sale number: ' || rand); 
+ 
+end Lottery;

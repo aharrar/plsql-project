@@ -1,0 +1,7 @@
+select SALEID, sum(price)
+from purchase natural join products natural join sales
+where (case when &date <> '0' then to_date(&date, 'dd-mm-yyyy') end) in (select DIARYDATE
+ from diary) And
+ (case when &date <> '0' then to_date(&date, 'dd-mm-yyyy') end) = SALEDATE
+group by SALEID
+order by SALEID

@@ -1,0 +1,6 @@
+SELECT p.prodid,p.NUMAVAILABLE,
+SUM(s.ORDERPRICE)/SUM(s.SUPPLYAMOUNT) AS avarage_price_for_unit
+FROM products p, supply s
+WHERE p.prodid = s.prodid AND p.NUMAVAILABLE< 10
+GROUP BY p.prodid,p.NUMAVAILABLE
+ORDER BY p.prodid

@@ -1,0 +1,32 @@
+ is  idEmp number;
+ mounthCounter number;
+ salaryEmp number;
+ M number;
+ totalSalaries number;
+ cursor employeeIterator
+ is select EXTRACT(MONTH FROM saledate) as m,empid, salary 
+    from employee natural join sales 
+         where saleid in ( select saleid from sales
+                                        where saledate >= to_date('01/01/2019', 'DD/MM/YYYY')
+                                         and saledate < to_date('01/01/2020', 'DD/MM/YYYY'))
+         order by empid, saledate;
+begin
+ mounthCounter := 0;
+ idEmp := 0;
+ totalSalaries := 0;
+ for emp_rec in employeeIterator
+     loop
+             if idEmp = emp_rec.empid and M != emp_rec.m then
+                mounthCounter := mounthCounter + 1;
+             else
+                   if idEmp != 0 then
+                       dbms_output.put_line('empid: ' || idEmp || '  salary for this year: ' || salaryEmp * mounthCounter );
+                   end if;
+                   mounthCounter := 1;
+                   idEmp := emp_rec.empid;
+                   salaryEmp := emp_rec.salary;
+                   M := emp_rec.m;
+             end if; 
+       end loop;
+       dbms_output.put_line('Total Salaries for all employees this year is:' || totalSalaries);  
+ end EmployeeSalary;

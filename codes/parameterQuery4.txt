@@ -1,0 +1,4 @@
+create view supply_day AS
+ SELECT ser.supname, ser.supcompany, sy.prodid, sy.supplyamount, sy.orderprice, sy.suplydate
+ FROM supply sy natural join supplier ser
+ WHERE EXTRACT(day FROM sy.suplydate) = &day1 AND EXTRACT(MONTH FROM sy.suplydate) = &month1 AND EXTRACT(YEAR FROM sy.suplydate) = &year1
